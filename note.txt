@@ -1,0 +1,5 @@
+things to care
+
+note:
+
+1. react native vector icon - ios
