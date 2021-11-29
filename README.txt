@@ -13,7 +13,8 @@ How to setup the project
 For iOS
 
 1. run "npx pod-install" to install the cocoaPod lib. 
-if "npx pod install" fail to run, you may run "cd ios" followed by "pod install"
+
+if "npx pod install" fail to run, you may run "cd ios" followed by "pod install" and "pod update"
 
 2. To run it on a stimulator, run "react-native run-ios"  
 
