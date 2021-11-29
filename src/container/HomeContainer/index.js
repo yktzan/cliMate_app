@@ -127,7 +127,7 @@ class HomeContainer extends Component {
 
   render() {
     return (
-      <SafeAreaView style={style.homeContainerStyle}>
+      <View style={style.homeContainerStyle}>
         {/* header */}
         {_.isEmpty(this.props.selected_weather_data) ? null : (
           <View
@@ -282,7 +282,7 @@ class HomeContainer extends Component {
             />
           </View>
         </Modal>
-      </SafeAreaView>
+      </View>
     );
   }
 }
