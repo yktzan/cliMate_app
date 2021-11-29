@@ -114,7 +114,7 @@ export default StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    paddingVertical: 10,
+    paddingVertical: 30,
   },
   modalTitleFont: {
     fontSize: 20,
