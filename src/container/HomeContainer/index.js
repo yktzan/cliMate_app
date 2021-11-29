@@ -151,6 +151,12 @@ class HomeContainer extends Component {
                     this.props.selected_weather_data_index + 1,
                   );
                 }
+              } else if (e.nativeEvent.pageY - this.touchY > 10) {
+                if (this.props.selected_weather_data_index > 0) {
+                  this.props.selectedCountry(
+                    this.props.selected_weather_data_index - 1,
+                  );
+                }
               }
             }}>
             <View style={style.headerContainer}>
